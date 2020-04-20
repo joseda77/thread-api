@@ -1,0 +1,5 @@
+Igual que cuando usamos un &, en la lectura de datos con scanf, igual de esta forma lo usamos aquí, tal vez te acordarás que decíamos que las cadenas de caracteres (%s) no usaban este operador, esto es porque en una cadena de caracteres es un arreglo de caracteres, por lo que el primer carácter es la dirección de inicio de la cadena.
+
+El operador *, nos permite acceder al valor de la direccion del puntero, en este caso nos permite acceder al valor que contiene a la variable a. De esta forma "a" y "*puntero" muestran el mismo dato, pero esto no quiere decir que sea lo mismo, uno es un entero y el otro un puntero.
+
+La impresión con %p, es para poder imprimir la dirección de memoria en valor hexadecimal (0x...), también podemos imprimir: ...%p",&a) y funciona de la misma forma, y es lógico que tanto "a" como "puntero" tienen la misma dirección de memoria.
